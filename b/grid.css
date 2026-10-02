@@ -1,0 +1,56 @@
+.cat{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+}
+.picture{
+    width: 200px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+    margin-left: 20px;
+    vertical-align: top;
+}
+.name{
+    margin-left: 8px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.friends{
+    color: rgb(100, 100, 100);
+
+}
+.butoni{
+    color: white;
+    border: none;
+    background-color: rgb(24, 119, 242);
+    margin-left: 8px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cat-profile{
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+.profile-picture{
+    margin-left: 8px;
+    margin-bottom: 12px;
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+}
+.grid{
+    display: flex;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+}

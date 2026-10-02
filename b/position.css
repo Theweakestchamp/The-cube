@@ -1,0 +1,46 @@
+div{
+    font-family: Arial;
+}
+.position{
+    display: inline-block;
+    position: relative;
+}
+.cat{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.ulje{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+.ulje1{
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.8);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.butoni{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
